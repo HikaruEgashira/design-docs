@@ -10,17 +10,6 @@ continuously, so they may be stale.
 
 ディレクトリ規約は `{repo}/{topic}/README.md`。1 OSS = 1 ディレクトリ、トピック単位で design doc を置く。
 
-## 新規 OSS を設計するとき
-
-この repo は PMF エンジニアリングの監査 harness を `.claude` で有効化している
-([`pmf` plugin](https://github.com/HikaruEgashira/agent-skills/tree/main/pmf))。
-新しい OSS の design doc を書く・ローンチ前にレビューするときは、対象 repo で `pmf-audit` を回し、
-TTFV / 信頼(false-positive economics)/ wedge の3次元で「刺さるか」を採点する。
-詳細は [`CLAUDE.md`](CLAUDE.md)。
-
 ## Design Docs
 
-- [libverify](https://github.com/HikaruEgashira/libverify)
-  - [agent-era verification — PMF thesis](libverify/agent-era-verification/README.md)
-- [pleno-dlp](https://github.com/plenoai/pleno-dlp) / [pleno-anonymize](https://github.com/plenoai/pleno-anonymize)
-  - [agent-era data egress control — PMF thesis](pleno-dlp/agent-era-data-egress/README.md)
+公開できる design doc はまだない。
