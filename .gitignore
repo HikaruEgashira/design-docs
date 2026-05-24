@@ -1,0 +1,5 @@
+.DS_Store
+
+# pmf-audit harness の中間出力(監査証跡はローカルに残す)
+_workspace/
+_workspace_prev/
